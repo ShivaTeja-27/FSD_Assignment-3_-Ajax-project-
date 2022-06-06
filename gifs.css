@@ -1,0 +1,122 @@
+/* for Gif's CSS */
+#Gif-Body {
+
+  background-image: linear-gradient(90deg, rgb(0, 0, 0), rgb(45, 45, 45), rgb(0, 0, 0), rgb(78, 78, 78));
+
+}
+
+
+#textInput {
+  transition: 0.5s;
+  background: linear-gradient(90deg, var(--c1, #13f7ff), var(--c2, #ffe928) 50%, var(--c1, #13f7ff)) var(--x, 0)/ 100%;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border-width: 4px;
+  border-color: rgb(0, 0, 0);
+  margin-bottom: 1%;
+  text-align: center;
+  width: 100%;
+  height: 55px;
+  color: black;
+  font-size: 175%;
+  font-style: double bold;
+}
+
+#searchBtnGif {
+  transition: 1s;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 4px;
+  text-align: right;
+  height: 55px;
+  background-image: linear-gradient(45deg, #0325ff, #2bff00, #00fbff);
+  color: whitesmoke;
+  /* position: absolute; right: 0; */
+}
+
+
+#Form-1 {
+  float: left;
+  width: 80%;
+  display: flex;
+}
+
+.Slogo1 {
+  color: black;
+  font-weight: bolder;
+}
+
+
+#gridview {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+/* .cont-item {
+  width: 23%;
+  height: 64px;
+  margin: 10px;
+} */
+
+#gifnamesize {
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+
+#Sticker-Page-Btn-in-Gif-page {
+
+  font-size: 30px;
+  background-image: linear-gradient(45deg, rgb(250, 13, 183), rgb(242, 146, 37), rgb(6, 248, 34));
+  color: black;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 1s;
+  border-radius: 30px;
+  border-color: rgb(255, 255, 255);
+  border-width: 3px;
+  text-align: center;
+  width: fixed;
+  height: 15%;
+}
+
+.card {
+  /* background-color: rgb(40, 39, 39); */
+  background-image: linear-gradient( #ff4800, #ff75c1);
+  color: rgb(0, 0, 0);
+  border-radius: 10%;
+  font-size: large;
+  text-align:center;
+  border-width: 10px;
+
+}
+
+
+#GifImage-Border {
+  border-width: 10;
+  border-radius: 5%;
+}
+
+
+#cont-item {
+
+    width: 23%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* TrendingListGif  //  TrendingListGif */
+
+#TrendingListGif {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
